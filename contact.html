@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Akshaya Pawar Portfolio</title>
+  
+  <!-- Google Fonts: Playfair Display, DM Sans, Poppins, Cormorant Garamond -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- Shared External Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Navigation Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-logo" aria-label="Akshaya Pawar Homepage">
+        <span class="brand-emblem" aria-hidden="true">AP</span>
+        <span class="brand-text">
+          <span class="brand-name">Akshaya Pawar</span>
+          <span class="brand-sub">IIM Bangalore | BBA</span>
+        </span>
+      </a>
+
+      <!-- Pure CSS Mobile Menu Toggle -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation menu">
+      <label for="nav-toggle" class="nav-toggle-label" aria-hidden="true">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <!-- Main Navigation Links -->
+      <nav aria-label="Main Navigation">
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="education.html" class="nav-link">Education</a></li>
+          <li><a href="skills.html" class="nav-link">Skills</a></li>
+          <li><a href="achievements.html" class="nav-link">Achievements</a></li>
+          <li><a href="interests.html" class="nav-link">Interests</a></li>
+          <li><a href="contact.html" class="nav-link active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Page Banner -->
+    <section class="page-banner">
+      <div class="container">
+        <div class="page-banner-content">
+          <span class="eyebrow eyebrow-sage">Connect &amp; Collaborate</span>
+          <h1 class="page-banner-title">Get in Touch</h1>
+          <p class="page-banner-subtitle">
+            Open for academic discussions, collegiate inquiries, digital business exchange, and entrepreneurial ideas.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Contact Section -->
+    <section class="section">
+      <div class="container">
+        <div class="contact-grid">
+
+          <!-- Left Column: Direct Contact Information -->
+          <div class="contact-card-main">
+            <span class="eyebrow">Communication Details</span>
+            <h2>Direct Information</h2>
+            <hr class="divider-champagne">
+            
+            <p>
+              I welcome constructive conversations around business strategy, technology adoption, and innovation in higher education. Please reach out via email or through the contact channels below.
+            </p>
+
+            <div class="contact-detail-group">
+              
+              <!-- Full Name -->
+              <div class="contact-item">
+                <div class="contact-icon-box" aria-hidden="true">N</div>
+                <div class="contact-detail-text">
+                  <span class="contact-label">Full Name</span>
+                  <span class="contact-value">Akshaya Ganesh Pawar</span>
+                </div>
+              </div>
+
+              <!-- Email Link -->
+              <div class="contact-item">
+                <div class="contact-icon-box" aria-hidden="true">@</div>
+                <div class="contact-detail-text">
+                  <span class="contact-label">Electronic Mail</span>
+                  <span class="contact-value">
+                    <a href="mailto:akshayagpawar5749@gmail.com" title="Send email to Akshaya Pawar">akshayagpawar5749@gmail.com</a>
+                  </span>
+                </div>
+              </div>
+
+              <!-- Location Details -->
+              <div class="contact-item">
+                <div class="contact-icon-box" aria-hidden="true">L</div>
+                <div class="contact-detail-text">
+                  <span class="contact-label">Base Location</span>
+                  <span class="contact-value">Pune, Maharashtra, India</span>
+                </div>
+              </div>
+
+              <!-- Academic Institution -->
+              <div class="contact-item">
+                <div class="contact-icon-box" aria-hidden="true">I</div>
+                <div class="contact-detail-text">
+                  <span class="contact-label">Academic Institution</span>
+                  <span class="contact-value">Indian Institute of Management Bangalore</span>
+                  <span class="text-small text-muted">Bengaluru, Karnataka, India</span>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Mailto Button -->
+            <div style="margin-top: var(--space-xl);">
+              <a href="mailto:akshayagpawar5749@gmail.com?subject=Academic%20Portfolio%20Inquiry" class="btn btn-primary" style="width: 100%;">
+                Write an Email to Akshaya &rarr;
+              </a>
+            </div>
+          </div>
+
+          <!-- Right Column: Editorial Note & Native HTML Message Dispatch -->
+          <div class="contact-message-card">
+            <span class="eyebrow">Direct Outreach</span>
+            <h2>Send a Direct Message</h2>
+            <hr class="divider-champagne">
+
+            <p class="text-small text-muted">
+              Built using 100% pure HTML5 standards. Submitting this form opens your default email client with your pre-composed message directed to Akshaya Pawar.
+            </p>
+
+            <!-- HTML-Only Native Form (Zero JavaScript, Zero Backend) -->
+            <form action="mailto:akshayagpawar5749@gmail.com" method="post" enctype="text/plain" style="display: flex; flex-direction: column; gap: var(--space-md); margin-top: var(--space-md);">
+              
+              <div>
+                <label for="sender-name" style="display: block; font-family: var(--font-nav); font-size: 0.8rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--color-navy); margin-bottom: 0.35rem;">Your Name</label>
+                <input type="text" id="sender-name" name="Sender_Name" required placeholder="e.g. Dr. Ramesh Sharma / Prof. Anita Sen" style="width: 100%; padding: 0.75rem 1rem; border: 1px solid var(--color-border-subtle); border-radius: var(--radius-sm); font-family: var(--font-body); font-size: 0.95rem; background-color: var(--color-ivory);">
+              </div>
+
+              <div>
+                <label for="sender-subject" style="display: block; font-family: var(--font-nav); font-size: 0.8rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--color-navy); margin-bottom: 0.35rem;">Subject</label>
+                <input type="text" id="sender-subject" name="Subject" required placeholder="e.g. Academic Discussion / Project Collaboration" style="width: 100%; padding: 0.75rem 1rem; border: 1px solid var(--color-border-subtle); border-radius: var(--radius-sm); font-family: var(--font-body); font-size: 0.95rem; background-color: var(--color-ivory);">
+              </div>
+
+              <div>
+                <label for="sender-message" style="display: block; font-family: var(--font-nav); font-size: 0.8rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--color-navy); margin-bottom: 0.35rem;">Message</label>
+                <textarea id="sender-message" name="Message" rows="5" required placeholder="Type your message here..." style="width: 100%; padding: 0.75rem 1rem; border: 1px solid var(--color-border-subtle); border-radius: var(--radius-sm); font-family: var(--font-body); font-size: 0.95rem; background-color: var(--color-ivory); resize: vertical;"></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="margin-top: var(--space-xs);">
+                Open Email Client &amp; Send &rarr;
+              </button>
+            </form>
+
+            <div class="contact-cta-panel">
+              <h3>Academic Presentation Note</h3>
+              <p>
+                This portfolio complies with all assignment requirements: strictly HTML5 &amp; CSS3, no scripts or external dependencies.
+              </p>
+              <a href="index.html" class="btn btn-champagne">Return to Home</a>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">Akshaya Ganesh Pawar</div>
+      <ul class="footer-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="achievements.html">Achievements</a></li>
+        <li><a href="interests.html">Interests</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <p class="footer-curiosity">Designed with curiosity by Akshaya Pawar</p>
+      <p class="footer-copyright">&copy; 2026 Akshaya Pawar. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
